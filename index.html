@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8"/>
@@ -424,7 +424,7 @@
     <li><a href="#how-it-works">How it Works</a></li>
     <li><a href="#collections">Collections</a></li>
     <li><a href="contact.html">Contact</a></li>
-    <li><a href="#upload" class="nav-cta">Upload Poster</a></li>
+    <li><a href="#get-app" class="nav-cta">📱 Get the App</a></li>
   </ul>
   <button class="hamburger" id="hamburger" aria-label="Menu">
     <span></span><span></span><span></span>
@@ -438,7 +438,7 @@
   <a href="#how-it-works" onclick="document.getElementById('mobileMenu').classList.remove('open')">How it Works</a>
   <a href="#collections" onclick="document.getElementById('mobileMenu').classList.remove('open')">Collections</a>
   <a href="contact.html">Contact</a>
-  <a href="#upload" class="btn btn-primary" onclick="document.getElementById('mobileMenu').classList.remove('open')">Upload Poster</a>
+  <a href="#get-app" class="btn btn-primary" onclick="document.getElementById('mobileMenu').classList.remove('open')">📱 Get the App</a>
 </div>
 
 <!-- ═══════════════════ HERO ═══════════════════ -->
@@ -456,9 +456,9 @@
       Turn your favourite digital art, photos &amp; designs into stunning premium prints — delivered straight to your door.
     </p>
     <div class="hero-actions fade-up delay-3">
-      <a href="#upload" class="btn btn-primary">
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="16 16 12 12 8 16"/><line x1="12" y1="12" x2="12" y2="21"/><path d="M20.39 18.39A5 5 0 0 0 18 9h-1.26A8 8 0 1 0 3 16.3"/></svg>
-        Upload &amp; Print
+      <a href="#get-app" class="btn btn-primary">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
+        Download App
       </a>
       <a href="#collections" class="btn btn-outline">Explore Collection</a>
     </div>
@@ -598,7 +598,7 @@
       <p class="section-label">Our Catalogue</p>
       <h2 class="section-title">Explore the Collection</h2>
     </div>
-    <a href="#" class="btn btn-outline">View All →</a>
+    <a href="#get-app" class="btn btn-outline">View All in App →</a>
   </div>
 
   <div class="collections-grid">
@@ -647,18 +647,22 @@
   </div>
 </section>
 
-<!-- ═══════════════════ UPLOAD CTA ═══════════════════ -->
-<div class="upload-cta" id="upload">
+<!-- ═══════════════════ APP-ONLY CTA ═══════════════════ -->
+<div class="upload-cta" id="get-app">
   <div class="upload-left">
-    <h2>Ready to create your print?</h2>
-    <p>Upload from Gallery · Google Drive · URL — we handle the rest.</p>
+    <div style="display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,.15);border-radius:50px;padding:6px 16px;margin-bottom:16px;font-size:.8rem;font-weight:600;color:#fff;">
+      📱 Available on Mobile Only
+    </div>
+    <h2>Ready to print your poster?</h2>
+    <p>Upload, customise &amp; order — all inside the KECHI app. Download it free on iOS &amp; Android.</p>
   </div>
   <div class="upload-right">
     <a href="#" class="btn btn-white">
-      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#D32F2F" stroke-width="2.5"><polyline points="16 16 12 12 8 16"/><line x1="12" y1="12" x2="12" y2="21"/><path d="M20.39 18.39A5 5 0 0 0 18 9h-1.26A8 8 0 1 0 3 16.3"/></svg>
-      Upload Now
+      🍎 App Store
     </a>
-    <a href="#collections" class="btn btn-white-outline">Browse Designs</a>
+    <a href="#" class="btn btn-white-outline">
+      ▶ Google Play
+    </a>
   </div>
 </div>
 
@@ -705,7 +709,7 @@
 </section>
 
 <!-- ═══════════════════ APP DOWNLOAD ═══════════════════ -->
-<section class="app-section">
+<section class="app-section" id="get-app">
   <div class="app-left">
     <p class="section-label">Get the App</p>
     <h2 class="section-title">Print from anywhere,<br/><span class="grad-text-primary">anytime</span></h2>
